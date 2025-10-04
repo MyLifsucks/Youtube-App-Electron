@@ -1,0 +1,46 @@
+{
+  "name": "netflix-electron",
+  "version": "1.0.0",
+  "description": "A Simple Netflix App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "Video",
+    "Music"
+  ],
+  "author": "Ribhav",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^38.2.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.ribhav.netflix-electron",
+    "productName": "NetflixElectron",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}
