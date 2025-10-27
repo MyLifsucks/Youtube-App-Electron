@@ -19,8 +19,8 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "com.ribhav.netflix-electron",
-    "productName": "NetflixElectron",
+    "appId": "com.ribhav.youtube-electron",
+    "productName": "YoutubeElectron",
     "directories": {
       "output": "dist"
     },
