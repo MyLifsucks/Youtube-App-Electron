@@ -8,7 +8,7 @@ function createWindow() {
             nodeIntegration: true,
         }
     });
-    win.loadURL('https://www.netflix.com');
+    win.loadURL('https://www.youtube.com');
 }
 
 app.whenReady().then(createWindow);
